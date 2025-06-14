@@ -1,0 +1,35 @@
+subject: Experience
+listing-order: 1
+icon: "/assets/img/briefcase.svg"
+contents:
+  - title: "Veermata Jijabai Technological Institute"
+    role: "Research Intern"
+    date: "Jan 2025 - April 2025"
+    description:
+      - "Contributed to an autonomous vulnerability patching system by developing AI agents that analyze code snippets and identify security vulnerabilities with a detailed analysis using a CVE-based knowledge base."
+      - "Fine-Tuned CodeT5 models for classifying vulnerable and safe code."
+
+  - title: "Reliance Industries Ltd."
+    role: "ML/Data Science Intern"
+    date: "May 2024 - July 2024"
+    description:
+      - "Worked on creating a Bidirectional LSTM model for Gas Sales Forecasting."
+      - "Used Angular, OpenAI API, and Selenium to implement a RAG System for Dashboard Analysis & Interpretation."
+
+  - title: "Spartificial"
+    role: "ML Research Intern"
+    date: "May 2023 - July 2023"
+    description:
+      - "Worked on the research project titled: 'Detecting Volcanoes on Venus'."
+      - "Created a labeled dataset of volcanoes on Venus using satellite images from NASA."
+      - "Built a CNN-based computer vision model with transfer learning to detect volcanoes."
+      - "Report: [Detecting Volcanoes on Venus](https://docs.google.com/document/d/1gLM0lkhkAbiDUquUOMxqlMiaJbqAJQo-oajztFJILZ8/edit?usp=sharing)."
+
+  - title: "ISTE-VESIT"
+    role: "Chief Technical Officer"
+    date: "Jan. 2023 - April 2025"
+    description:
+      - "Speaker for a workshop on React, Flask, and a simple recommendationation system; attended by 100+ people."
+      - "Developed a full-stack web application: Spotify Clone, using Flask & React along with a recommendation system."
+      - "Speaker for a workshop on creating and publishing an AR game using Meta's Spark AR."
+      - "Organized a 24-hour hackathon with over 400 participants."

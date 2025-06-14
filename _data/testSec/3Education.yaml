@@ -1,0 +1,19 @@
+subject: Education
+listing-order: 3
+icon: "/assets/img/graduation-cap.svg"
+contents:
+  - title: Vivekanand Education Society's Institute of Technology, Mumbai
+    note: "*B.E. in AI & Data Science, Honours in Cybersecurity*"
+    # description:
+      # - Design of a method to build a probabilistic generative model
+      # - Development of model calibration algorithm for cross-domain few-shot learning
+    grade: "**GPA**: `9.6/10`"
+    date: Dec 2021 - May 2025
+  - title: Christ Academy, Navi Mumbai
+    note: "*Completed HSC Class 12 with Distinction*"
+    grade: "**Percentage**: `97.67%`"
+    date: July 2021
+  - title: Christ Academy, Navi Mumbai
+    note: "*Completed SSC Class 10 with Distinction*"
+    grade: "**Percentage**: `89%`"
+    date: May 2019

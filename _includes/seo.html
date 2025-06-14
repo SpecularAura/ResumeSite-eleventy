@@ -1,0 +1,46 @@
+<!-- Basic SEO Meta Tags -->
+<title>{{ site.title }}</title>
+<meta name="description" content="{{ site.description }}">
+<meta name="author" content="{{ site.author.name }}">
+<meta name="keywords" content="Developer, Machine Learning, AI, Software Engineer, {{ site.author.name }}">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+<!-- Open Graph (OG) Tags for Social Media -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ site.title }}">
+<meta property="og:description" content="{{ site.description }}">
+<meta property="og:image" content="{{ site.profile_img }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+
+<!-- Twitter Card (for better Twitter previews) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ site.title }}">
+<meta name="twitter:description" content="{{ site.description }}">
+<meta name="twitter:image" content="{{ site.profile_img }}">
+<!-- <meta name="twitter:site" content="@your_twitter_handle"> -->
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="{{ site.icon_img }}">
+<link rel="apple-touch-icon" href="{{ site.icon_img }}">
+
+<!-- Schema.org JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.author.name }}",
+  "url": "{{ site.url }}",
+  "image": "{{ site.profile_img }}",
+  "sameAs": [
+    "https://github.com/{{ site.social.github }}",
+    "https://instagram.com/{{ site.social.instagram }}",
+    "https://linkedin.com/in/{{ site.social.linkedin }}",
+    "https://stackoverflow.com/users/{{ site.social.stackoverflow }}",
+    "https://{{ site.social.blog }}"
+  ],
+  "jobTitle": "Developer, ML Enthusiast"
+}
+</script>

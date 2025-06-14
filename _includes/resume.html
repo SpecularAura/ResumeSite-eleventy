@@ -1,0 +1,75 @@
+<div id="content-wrapper">
+  <div id="contents">
+    <ul>
+      {% for subject in testSec %}
+      <li class="subject" id="{{ subject[1].subject }}">
+        <h2 class="subject-name">
+          <div>
+            <img class="subject-icon" src="{{ subject[1].icon }}" alt="{{ subject[1].subject }}">
+          </div>
+          {{ subject[1].subject }}
+        </h2>
+        <ul>
+          {% for member in subject[1].contents %}
+          <li class="item">
+            <div class="content-header">
+              {% if member.title %}
+              <div>
+                <div class="main-heading">
+                  {{ member.title | renderContent: "md" }}
+                </div>
+                {% if member.role %} <div class="experience-role">{{ member.role | renderContent: "md" }}</div>{% endif %}
+                {% if member.link %}
+                <a class="content-tech" href="{{ member.link }}">
+                  <div class="logo">
+                    {% if member.link-type == "Github" %}
+                    {% include "svg/github-normal.svg" %}
+                    {% elsif member.link-type == "Presentation" %}
+                    <img class="logo" src="/assets/img/presentation.svg"/>
+                    {% endif %}
+                  </div>
+                </a>
+                {% endif %}
+              </div>
+              {% endif %}
+
+              {% if member.date %}
+              <span class="content-date">
+                <img src="{{ '/assets/img/calendar.webp' }}" alt="date">
+                {{ member.date }}
+              </span>
+              {% endif %}
+            </div>
+
+
+
+            {% if member.title %}
+            <div class="content-subheader">
+              {{ member.subtitle }}
+            </div>
+            {% endif %}
+            {% for item in member %}
+            {% if item[0] != "title" and item[0] != "date" and item[0] != "role" and item[0] != "link" and item[0] != "link-type"%}
+            {% if item[1].first %}
+            <ul class="subitem-list">
+              {% for subitem in item[1] %}
+              <li class="subitem">
+                {{ subitem | renderContent: "md"  }}
+              </li>
+              {% endfor %}
+            </ul>
+            {% elsif item[0] == "tech-stack" %}
+            <p><strong>Techonologies Used:</strong> <code class="language-plaintext highlighter-rouge">{{ item[1] }} </code></p>
+            {% else %}
+            {{ item[1] | renderContent: "md" }}
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </li>
+          {% endfor %}
+        </ul>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

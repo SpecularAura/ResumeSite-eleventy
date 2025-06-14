@@ -1,0 +1,110 @@
+:root {
+    --color-background: #fffdfb;
+    --theme1-light: #F6D8CB;
+    --theme1-medium: #D0A694;
+    --theme1-dim: #B07D67;
+    --theme1-dark: #8A5843;
+    --theme2-light: #B1B1C2;
+    --theme2-medium: #8888A4;
+    --theme2-dim: #66658C;
+    --theme2-dark: #484776;
+    --theme3-light: #FFF8E4;
+    --theme3-medium: #EBDFBB;
+    --theme3-dim: #C8B887;
+    --theme3-dark: #A8955A;
+    --theme4-light: #AABEB6;
+    --theme4-medium: #7FA093;
+    --theme4-dim: #5C8876;
+    --theme4-dark: #3D725D;
+    --font-dark: #202424;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Piazzolla', sans-serif;
+    background: var(--color-background);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    font-variant-numeric: oldstyle-nums proportional-nums;
+
+    &:before {
+        display: none;
+    }
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#sidebar {
+    display: none;
+}
+
+#about,
+#contents,
+#footer {
+    text-align: center;
+}
+
+
+#footer {
+    padding: 1rem;
+    background: var(--theme3-medium);
+    font-size: 14px;
+
+    a {
+        color: var(--theme1-dark);
+        font-weight: 600;
+    }
+}
+
+@media (min-width:1024px) {
+    #sidebar {
+        display: block;
+        position: fixed;
+        width: 128px;
+        top: 50%;
+        right: 0;
+        z-index: 1;
+        font-size: 14px;
+
+        li {
+            margin: 6px;
+            margin-right: 0;
+            padding: 4px 24px 4px 12px;
+            border-radius: 8px 0 0 8px;
+            background: var(--theme3-medium);
+            transition: all 0.5s;
+            cursor: pointer;
+
+            a {
+                color: var(--font-dark);
+                text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.75);
+            }
+        }
+
+        li:hover,
+        li.active {
+            padding-left: 24px;
+            padding-right: 12px;
+            background: var(--theme1-medium);
+
+            a {
+                color: var(--font-dark);
+            }
+        }
+    }
+}

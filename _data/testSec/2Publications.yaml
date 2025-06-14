@@ -1,0 +1,7 @@
+subject: Publications
+listing-order: 2
+icon: "/assets/img/flask.svg"
+contents:
+- title: Conference
+  ref: 
+    - "[1] S. Oswal, R. Bhalerao, A. Kulkarni, “[Optimizing Biomass Forecasting and Supply Chain: An Integrated Modelling Approach](https://link.springer.com/chapter/10.1007/978-3-031-56700-1_6),” *Advanced Computing*, IACC 2023. Communications in Computer and Information Science, vol. 2053, Springer, Cham, pp. 57-71, 2024."

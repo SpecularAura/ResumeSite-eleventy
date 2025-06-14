@@ -1,0 +1,13 @@
+subject: Achievements
+listing-order: 6
+icon: "/assets/img/trophy.svg"
+contents:
+  - title: E-Yantra Innovation Challenge
+    description: Regional Conference Finalalist
+    date: April. 2023
+  - title: Shell.ai Hackathon for Sustainable and Affordable Energy
+    description: Ranked 12th in University Edition
+    date: October. 2023
+  - title: IIIT Sricity National Healthcare Hackathon
+    description: 1st Runner Up in IIIT Sricity National Healthcare Hackathon
+    date: December. 2023

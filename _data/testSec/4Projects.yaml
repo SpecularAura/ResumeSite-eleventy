@@ -1,0 +1,68 @@
+subject: Projects
+listing-order: 4
+icon: "/assets/img/clipboard-list.svg"
+contents:
+  - title: "Democratizing AI for MSMEs with Small E-commerce Language Models"
+    description:
+      - "Developed and fine-tuned Small Language Models (SLMs) for Micro, Small, and Medium Enterprises (MSMEs), achieving competitive performance with lower resource requirements compared to larger models."
+      - "Implemented scripts for data preprocessing, model fine-tuning using HuggingFace transformers and PEFT, and evaluation of SLM performance."
+      - "Generated an augmented reasoning dataset from ECInstruct using quantized DeepSeek-R1 models to enhance model training and evaluation."
+    tech-stack: "React, Node.js, Express, MongoDB, Unity"
+    link: "https://www.canva.com/design/DAGUUBrACGU/erWN9sr_zW1Rxe9J7n61SA/view"
+    link-type: "Presentation"
+
+  - title: "NeuroCogniTrainer"
+    description:
+      - "Developed an integrated system aimed at enhancing cognitive retraining for children with developmental disabilities."
+      - "Implemented features that provides retraining to the patients in the form of interactive games using Unity."
+      - "Developed systems for therapists to assist them in making more effective analysis by presenting summarized visual representations of patients activities."
+    tech-stack: "React, Node.js, Express, MongoDB, Unity"
+    link: "https://www.canva.com/design/DAF70PRWzQw/JGeSMMLkN7kFAae3jPAliA/view"
+    link-type: "Presentation"
+
+  - title: "Enabled: Connections Matter"
+    description:
+      - "Created an AI based community platform for Persons with Disabilities (PwD) with various AI based accessibility features, allowing for easy use for the PwDs."
+      - "Presented the idea and app at the regional conference finals as a part of eYantra eYIC competition held by IIT Bombay."
+    tech-stack: "E-Yantra, AI, Flutter, Ideation"
+
+  - title: "Auth Template"
+    description:
+      - "Made a full fledged template for a generic quick setup of Session Based Authentication."
+      - "Implemented protected routing with a clean UI interface with proper backend implementation of cookies and storing sessions."
+      - "Added support for HTTPS testing by enabling a flag and providing the appropriate certificates."
+    tech-stack: "React, Node.js, Express, MongoDB"
+    link: "https://github.com/SpecularAura/ESAB/"
+    link-type: "Github"
+
+  - title: "Predicting Forest Fires using AI/ML"
+    description:
+      - "Explored and understood time series forecasting and analysis using variuos supervised ML algorithms."
+      - "Implemented models using various ML Algorithms such as XGBoost & fbProphet."
+      - "Built a model that could predict a forest fire with 99.2% accuracy within India over the course of 2022."
+    tech-stack: "Scikit-learn, AI, ML, XGBoost"
+    date: "Aug 2022 - Apr 2023"
+
+  - title: "Tree Walk Interpreter"
+    description:
+      - "Implemented a basic tree walk interpreter in Java followed from [Crafting Interpreters](https://craftinginterpreters.com/)."
+      - "Learned about various design patterns used in compilers."
+      - "Can interpret basic control flow statements."
+    tech-stack: "Java"
+
+  - title: "Reinforcement Learning based Snake Game"
+    description:
+      - "Made an agent that learns how to play the snake game using Reinforcement Learning."
+      - "Used Deep Q Learning for the agent to learn how to play snake."
+      - "Implemented the game using PyGame which acts as the environment for the agent."
+    tech-stack: "Python, PyTorch, Reinforcement Learning"
+    link: "https://github.com/Riteshbhalerao11/AI_Snake_game_Mini_project/"
+    link-type: "Github"
+
+  - title: "Pharmacy Management System"
+    description:
+      - "Created a Simple Desktop Application that interacts with a database for auto filling the cost of drugs."
+      - "Implemented the option to print invoices."
+    tech-stack: "Java, Swing, Apache, MySQL"
+    link: "https://github.com/Maverick8479/PharmacyManagement"
+    link-type: "Github"
