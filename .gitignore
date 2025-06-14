@@ -1,4 +1,5 @@
 ResumeCombined/
+CloudflareDeploy/
 **/node_modules/*
 pnpm-lock.yaml
 _site/
