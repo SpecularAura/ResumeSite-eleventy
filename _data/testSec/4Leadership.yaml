@@ -1,0 +1,12 @@
+subject: Leadership 
+listing-order: 1
+icon: "/assets/img/briefcase.svg"
+contents:
+  - title: "ISTE-VESIT"
+    role: "Chief Technical Officer"
+    date: "Jan. 2023 - April 2025"
+    description:
+      - "Speaker for a workshop on React, Flask, and a simple recommendationation system; attended by 100+ people."
+      - "Developed a full-stack web application: Spotify Clone, using Flask & React along with a recommendation system."
+      - "Speaker for a workshop on creating and publishing an AR game using Meta's Spark AR."
+      - "Organized a 24-hour hackathon with over 400 participants."

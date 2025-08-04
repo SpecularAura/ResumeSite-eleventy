@@ -1,4 +1,4 @@
-subject: Experience
+subject: Internships
 listing-order: 1
 icon: "/assets/img/briefcase.svg"
 contents:
@@ -25,11 +25,3 @@ contents:
       - "Built a CNN-based computer vision model with transfer learning to detect volcanoes."
       - "Report: [Detecting Volcanoes on Venus](https://docs.google.com/document/d/1gLM0lkhkAbiDUquUOMxqlMiaJbqAJQo-oajztFJILZ8/edit?usp=sharing)."
 
-  - title: "ISTE-VESIT"
-    role: "Chief Technical Officer"
-    date: "Jan. 2023 - April 2025"
-    description:
-      - "Speaker for a workshop on React, Flask, and a simple recommendationation system; attended by 100+ people."
-      - "Developed a full-stack web application: Spotify Clone, using Flask & React along with a recommendation system."
-      - "Speaker for a workshop on creating and publishing an AR game using Meta's Spark AR."
-      - "Organized a 24-hour hackathon with over 400 participants."
