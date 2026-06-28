@@ -1,0 +1,4 @@
+node_modules/
+token.txt
+accountid.txt
+pnpm-lock.yaml
